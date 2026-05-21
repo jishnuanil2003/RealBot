@@ -15,7 +15,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:3000",
         "https://realbot-2.onrender.com"
-        "https://webscrappingbot.vercel.app",   # ← add this
+        "https://real-bot-five.vercel.app",   # ← add this
     ],
     allow_credentials=True,
     allow_methods=["*"],
