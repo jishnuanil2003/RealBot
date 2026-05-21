@@ -9,5 +9,4 @@ langchain-groq
 langchain-huggingface
 langchain-classic
 chromadb
-sentence-transformers
 unstructured
