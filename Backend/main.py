@@ -15,9 +15,9 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:3000",
         "https://realbot-1-tylx.onrender.com",
-        "https://real-bot-five.vercel.app",   # ← add this
+        "https://real-bot-five.vercel.app",
     ],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
