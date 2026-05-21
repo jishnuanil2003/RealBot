@@ -427,15 +427,8 @@ unstructured
 
 ### Processing State
 
-```
-┌──────────────────────────┐
-│  [⟳ Processing URLs… ]   │  ← button shows spinner
-│                          │
-│  🤖 ⏳ Processing 2 URLs… │  ← optimistic chat message
-│     This may take a      │
-│     moment.              │
-└──────────────────────────┘
-```
+<img width="1279" height="654" alt="Screenshot 2026-05-21 005734" src="https://github.com/user-attachments/assets/a9fd6e8e-7f3b-4d9f-960e-2fe5482039b7" />
+
 
 ### Ready State — Green Indicator
 
