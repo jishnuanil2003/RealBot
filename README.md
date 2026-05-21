@@ -422,24 +422,8 @@ unstructured
 
 ### Main Interface — URL Panel + Chat Window
 
-```
-┌──────────────────────────┬──────────────────────────────────────────┐
-│  WEB CONTEXT             │  ● Model Chat          Web-Augmented     │
-│  Paste your URL          │                                          │
-│  for web search      [+] │  🤖 Hello! Paste some URLs on the left  │
-│ ─────────────────────    │     and ask me anything about them.      │
-│                          │                                          │
-│  🔗 https://espnc... [×] │                    How old is Kohli? 👤  │
-│  🔗 https://bcci.tv  [×] │                                          │
-│                          │  🤖 Virat Kohli was born on November 5,  │
-│                          │     1988, making him 35 years old.       │
-│  ● 2 URLs queued         │     ↗ bcci.tv                            │
-│  [  Process 2 URLs  ]    │                                          │
-│                          │  ┌────────────────────────────────────┐  │
-│                          │  │ Ask anything about the indexed URLs│▶ │
-│                          │  └────────────────────────────────────┘  │
-└──────────────────────────┴──────────────────────────────────────────┘
-```
+<img width="1279" height="656" alt="Screenshot 2026-05-21 004034" src="https://github.com/user-attachments/assets/a8384b1c-b245-4642-b4e6-6d6edab91ed3" />
+
 
 ### Processing State
 
