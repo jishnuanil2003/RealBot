@@ -21,16 +21,20 @@ llm =None
 vectordb = None
 
 def initialize():
-    global llm , vectordb
+    global llm, vectordb
 
-    if llm == None:
-        llm = ChatGroq(model=LLM_MODEL,temperature=0.9,max_tokens=500)
-    if vectordb == None:
+    if llm is None:
+        llm = ChatGroq(model=LLM_MODEL, temperature=0.9, max_tokens=500)
+    
+    if vectordb is None:
         hf = HuggingFaceEmbeddings(
             model_name=EMBEDDING_MODEL,
-            model_kwargs={"trust_remote_code": True}
+            model_kwargs={
+                "trust_remote_code": True,
+                "device": "cpu"
+            },
+            encode_kwargs={"normalize_embeddings": False}  # saves memory
         )
-
         vectordb = Chroma(
             collection_name=COLLECTION_NAME,
             embedding_function=hf,
