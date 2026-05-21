@@ -29,7 +29,10 @@ class URLRequest(BaseModel):
 class QueryRequest(BaseModel):
     query: str
 
-
+@app.get("/")
+def root():
+    return {"status": "WebRAG backend is live!"}
+    
 # API 1
 @app.post("/process-urls")
 def process_urls_api(request: URLRequest):
