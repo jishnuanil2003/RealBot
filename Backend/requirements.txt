@@ -10,3 +10,4 @@ langchain-huggingface
 langchain-classic
 chromadb
 unstructured
+transformers
