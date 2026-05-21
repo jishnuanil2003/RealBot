@@ -12,7 +12,7 @@ from datetime import datetime
 load_dotenv()
 
 CHUNK_SIZE = 1000
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL = "sentence-transformers/paraphrase-MiniLM-L3-v2"
 LLM_MODEL = "llama-3.3-70b-versatile"
 VECTORSTORE_DIR = Path(__file__).parent / "resources/vectorstore"
 COLLECTION_NAME = "real_estate"
